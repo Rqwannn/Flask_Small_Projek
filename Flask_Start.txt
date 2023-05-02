@@ -15,8 +15,6 @@ Jalankan Flask (Windows)
 set FLASK_APP=app.py
 flask run
 
-Bisa juga langsung python app.py (MacOS juga bisa)
-
 Jalankan Flask (MacOS)
 
 export FLASK_APP=app.py

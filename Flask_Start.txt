@@ -1,0 +1,32 @@
+- build folder project
+- python -m venv env
+- .\env\Scripts\activate
+
+Ketik perintah di env
+
+- python.exe -m pip install --upgrade pip
+- pip install flask
+- touch app.py
+
+Untuk instalasi jalankan di envnya
+
+Jalankan Flask (Windows)
+
+set FLASK_APP=app.py
+flask run
+
+Bisa juga langsung python app.py (MacOS juga bisa)
+
+Jalankan Flask (MacOS)
+
+export FLASK_APP=app.py
+flask run
+
+Run Model and DB (Run di file app.py berada)
+
+flask db init # jika ini adalah migrasi pertama
+flask db migrate
+flask db upgrade
+
+
+Flask deploy to docker => https://www.youtube.com/watch?v=dVEjSmKFUVI&list=PLF2JzgCW6-YY_TZCmBrbOpgx5pSNBD0_L&index=24
